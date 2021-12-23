@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="progrsscolor">progress</string>
+    <string name="exitbtn">Exit</string>
+    <string name="next">NEXT</string>
+    <string name="quizapp1">QUIZAPP</string>
+    <string name="try_again">try again</string>
+    <string name="back">BACK</string>
+    <string name="made_by">made by -Anil joshi\n Mca V</string>
+</resources>

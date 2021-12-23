@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/homescreen"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/welcomeBack"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textColor="#a5e01b"
+        android:textSize="@dimen/_22sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/rateCard"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="28dp"
+        app:cardBackgroundColor="#4d89e3"
+        android:background="@drawable/next_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quizCard">
+
+
+        <ImageView
+            android:layout_width="@dimen/_80sdp"
+            android:background="@drawable/ic_baseline_star_rate_24"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#f2963f"
+            android:text="Rate us"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_100sdp"
+        android:id="@+id/exit_card"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:cardBackgroundColor="#4d89e3"
+        app:layout_constraintStart_toEndOf="@+id/rateCard"
+        app:layout_constraintTop_toBottomOf="@+id/share_card">
+
+        <ImageView
+            android:layout_width="@dimen/_80sdp"
+            android:background="@drawable/ic_baseline_exit_to_app_24"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#f2963f"
+            android:text="Exit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/quizCard"
+
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        app:cardBackgroundColor="#4d89e3"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/_80sdp"
+            android:background="@drawable/quizlogo"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#f2963f"
+            android:text="Quizzes"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/share_card"
+
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:cardBackgroundColor="#4d89e3"
+        app:layout_constraintStart_toEndOf="@+id/quizCard"
+        app:layout_constraintTop_toTopOf="parent" >
+        <ImageView
+            android:layout_width="@dimen/_80sdp"
+            android:background="@drawable/ic_baseline_share_24"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#f2963f"
+            android:text="Share App"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="294dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="176dp"
+        android:text="Sign out"
+        android:id="@+id/signOutHere"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rateCard"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/drawable/bg.xml" value="0.187973086627418" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/drawable/diaglog_bg.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/drawable/edittextshapre.xml" value="0.187973086627418" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/drawable/next_btn.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/drawable/tabshape.xml" value="0.187973086627418" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/drawable/timeout_btn.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/drawable/timout_img.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/layout/activity_dash_board.xml" value="0.2" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/layout/activity_email_sign_in.xml" value="0.17157275021026072" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/layout/activity_google_sign_in.xml" value="0.17435897435897435" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/layout/activity_main_screen.xml" value="0.152" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/layout/login_xml.xml" value="0.176" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/layout/newscreen.xml" value="0.2083758937691522" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/layout/signup_xml.xml" value="0.2" />
+        <entry key="..\:/Users/Anil Joshi/AndroidStudioProjects/AnilQuizApp/app/src/main/res/layout/timeout_dialog.xml" value="0.2083758937691522" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

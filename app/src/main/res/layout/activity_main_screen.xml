@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen">
+
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="1420dp"
+        android:layout_height="184dp"
+        android:src="@raw/welcome"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:background="@drawable/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="156dp"
+            android:background="@drawable/tabshape"
+            android:textAlignment="center"
+            app:tabIconTintMode="multiply"
+            app:tabSelectedTextColor="#7D873E"
+            app:tabTextColor="@color/sky_blue" />
+    </androidx.viewpager.widget.ViewPager>
+
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="101dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="24dp"
+        android:src="@raw/google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <TextView
+        android:id="@+id/skipForNow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:gravity="right"
+        android:text="Skip For Now"
+        android:textColor="@color/dark_blue"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewPager" />
+</androidx.constraintlayout.widget.ConstraintLayout>

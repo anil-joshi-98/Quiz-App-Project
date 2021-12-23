@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_220sdp"
+    android:layout_height="@dimen/_200sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_20sdp"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="#ff9999"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        android:text="oops time out..."
+        />
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/timout_img"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="@dimen/_100sdp"
+        android:orientation="vertical"
+        android:id="@+id/try_again"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_height="match_parent"
+        android:backgroundTint="#FF7F7F"
+        android:background="@drawable/timeout_btn"
+        android:layout_marginStart="@dimen/_10sdp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/try_again"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18sdp"
+            android:gravity="center"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/_100sdp"
+            android:orientation="horizontal"
+            android:id="@+id/exit_main"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FF7F7F"
+            android:background="@drawable/timeout_btn"
+            android:layout_marginRight="@dimen/_40sdp"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exit"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sdp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
